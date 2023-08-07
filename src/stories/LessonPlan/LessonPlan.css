@@ -1,0 +1,73 @@
+.input{
+    outline:none;
+    /* width:90vw; */
+    height: 35px;
+    padding-left: 5px;
+    border-color: lightgray;
+    border-width: 1;
+    border-radius: 5px;
+    border-style: solid;
+    /* margin-bottom: 20px; */
+}
+
+.localEditor{
+    /* background-color: lightgray; */
+    /* width:90vw; */
+    height: 45vh;
+    overflow-y: auto;
+    margin-bottom: 20px;            
+    
+}
+.localEditorBorder{
+    border-width: 1;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 15;
+    overflow-y: auto;
+}
+
+.localToolBar{
+    /* position: fixed; */
+    /* overflow-y: visible; */
+}
+
+/* .localToolbar{
+    width: 50vw; 
+    height: 10vh;
+} */
+
+/* .button{
+    height: 30px;
+    width: 60px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.buttonInActive {
+    background-color: transparent;
+    border-width: 1;
+    border-color: lightgray;
+}
+
+
+.buttonActive{
+background-color: #3133b1;
+color: white;
+} */
+
+input[type='file'] {
+  color: rgba(0, 0, 0, 0)
+}
+
+
+
+.inputfile {
+	/* width: '200px';
+	height: '194px'; */
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    
+	
+}
